@@ -1,0 +1,8 @@
+package day1.rizky;
+
+public class Day1Rizky {
+
+    public static void main(String[] args) {
+//    day 1 = hello word
+    System.out.println("hallo word");
+        System.out.println("saya rizkhy");
