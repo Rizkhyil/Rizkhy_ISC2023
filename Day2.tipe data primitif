@@ -1,0 +1,23 @@
+package iki.day2;
+public class Main {
+    
+    public static void main(String[] args) {
+        // day 2 by rizkhy ilmansyah
+        char GD = 'O';
+        short tgll = 13;
+        int bulan_lahir = 5;
+        byte umur = 17;
+        double bb = 65.3;
+        long tinggi_badan = 170;
+        float noHP = 08251836f;
+        boolean mendua = true;
+        
+        System.out.println(GD);
+        System.out.println(tgll);
+        System.out.println(bulan_lahir);
+        System.out.println(umur);
+        System.out.println(bb);
+        System.out.println(tinggi_badan);
+        System.out.println(noHP);
+        System.out.println(mendua);
+    }
