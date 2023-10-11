@@ -1,0 +1,29 @@
+package hari3;
+
+public class Main {
+
+    public static void main(String[] args) {
+        //tipe data non primitif
+        String Nama ="Rizkhy";
+        Integer Umur = 19;
+        Character Inisial ='R';
+        Byte BeratBadan = 65;
+        Short NoHP = 999;
+        float TinggiBadan = 172;
+        long  Penghasilan = 150000;
+        double gaji = 150000;
+        Boolean hobivolley = false;
+
+        System.out.println("Nama saya                : " + Nama);
+        System.out.println("Umur saya                : " + Umur);
+        System.out.println("Berinisialn              : " + Inisial);
+        System.out.println("Berat Badan  saya        : " + BeratBadan);
+        System.out.println("No HP Saya               : " + NoHP);
+        System.out.println("Tinggi saya              : " + TinggiBadan);
+        System.out.println("Penghasilan saya         : " + Penghasilan);
+        System.out.println("Gaji  saya               : " + gaji);
+        System.out.println("Saya Belum Punya pacar   : " + hobivolley);
+        
+
+    }
+}
