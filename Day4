@@ -1,0 +1,29 @@
+package day4;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        //Deklasrasi variabel
+        String nama;
+        double umur;
+        boolean hobivolley;
+        char inisialAyang;
+        
+        //Memberi nilai ke variabel
+        nama = "rizkhy";
+        umur = 13;
+        hobivolley= true;
+        inisialAyang = 'c';
+        
+        
+        
+
+        System.out.println("nama = " + nama);
+        System.out.println("umur = " + umur);
+        System.out.println("hobivolley" + hobivolley);
+        System.out.println("inisialAyang = " + inisialAyang);
+        
+
+    }
+}
