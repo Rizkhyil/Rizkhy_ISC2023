@@ -1,0 +1,30 @@
+package day5;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        //Deklasrasi variabel
+        String nama, alamat;
+        int usia;
+        byte berat_badan;
+        double tinggi;
+        short wa;
+        
+        //Mengisi variabel
+        nama = "rizkhy";
+        alamat = "mapilli";
+        usia = 17;
+        berat_badan = 65;
+        tinggi = 172.5;
+        wa = 911;
+
+        System.out.println("nama              = " + nama);
+        System.out.println("alamat            = " +alamat);
+        System.out.println("usia              = " + usia + "tahun");
+        System.out.println("berat_badan       = " + berat_badan);
+        System.out.println("tinggi            = " + tinggi + "cm");
+        System.out.println("wa                = " + wa);
+
+    }
+}
