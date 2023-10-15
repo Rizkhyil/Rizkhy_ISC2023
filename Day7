@@ -1,0 +1,19 @@
+package day7;
+
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input  = new Scanner(System.in);
+        
+        System.out.print(" masukan nilai A : ");
+        int A = input.nextInt();
+        
+        final double S = 5.15;
+        
+        System.out.println("Jadi luas balok/ adalah :  "+(A*A)*S);
+        
+        
+    }
+}
