@@ -1,0 +1,23 @@
+package day8.inputdata;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        String nama, alamat ;
+        int umur;
+        double tinggi;
+        
+        System.out.print("nama :");
+        nama = input.nextLine();
+        System.out.print("alamat :");
+        alamat = input.nextLine();
+        System.out.print("umur :");
+        umur = input.nextInt();
+        System.out.print("tinggi :");
+        tinggi = input.nextDouble();
+        
+        
+    }
+}
