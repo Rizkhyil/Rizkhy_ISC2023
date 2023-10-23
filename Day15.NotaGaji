@@ -1,0 +1,23 @@
+package day15_notaGaji;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner rizz = new Scanner(System.in);
+        
+        int a,b,c,d;
+        
+        System.out.print(" masukan gaji poko \t= ");
+        a = rizz.nextInt();
+        b = 55000;
+        
+        System.out.print(" masukan jumlah lembur \t= ");
+        c = rizz.nextInt();
+        
+        System.out.println("<<==========================================>>");
+        
+        d = (c*b)+a; 
+        System.out.print(" gaji bersih anda senilai \t: Rp "+d);
+    }
+    
+}
