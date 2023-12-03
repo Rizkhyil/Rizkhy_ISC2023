@@ -1,0 +1,19 @@
+package Day56;
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner ky = new Scanner(System.in);
+        int awal, akhir;
+        System.out.print("awal  : ");
+        awal = ky.nextInt();
+        System.out.print("akhir : ");
+        akhir = ky.nextInt();
+        int r = awal;
+        System.out.println("~~~~~~~~output~~~~~~~");
+        while(r <= akhir){
+            System.out.print(r+" ");
+            r++;
+        }
+    }
+}
