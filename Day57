@@ -1,0 +1,24 @@
+package Day57;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner ky = new Scanner(System.in);
+        System.out.print("Masukkan batas : ");
+        int batas = ky.nextInt();
+        int jumlah = 0;
+        for (int y = 1; y <= batas; y++) {
+            
+            if( y%3==0){
+             jumlah++;
+            }
+        }
+        System.out.println("~~~~~~~~~Output~~~~~~~~~~");
+        System.out.println("");
+        System.out.println("Jumlah angka yang dibagi 3 sebanyak "+jumlah);
+   
+    }
+    
+}
