@@ -1,0 +1,20 @@
+package Method;
+import java.util.*;
+public class Main{
+    public static void main(String[] args) {
+        System.out.println(simpel());
+        fungsiVoid("~~~~~Out Put~~~~~");
+        selamatTahunbaru("Teman-teman kampus!");
+        selamatTahunbaru("Teman sekampung!");
+    }
+    private static void selamatTahunbaru(String nama){
+        System.out.println("Selamat tahun baru "+nama);
+        
+    }
+    private static void fungsiVoid(String ky){
+        System.out.println(ky);
+    }
+    private static int simpel(){
+        return 1;
+    }
+}
