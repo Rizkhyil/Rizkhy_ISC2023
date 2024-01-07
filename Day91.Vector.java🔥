@@ -1,0 +1,26 @@
+package Day91;
+
+import java.util.Enumeration;
+import java.util.Vector;
+
+public class Main {
+    public static void main(String[] args) {
+        Enumeration kawan;
+        Vector namaKawan = new Vector();
+
+        namaKawan.add("1. Aril");
+        namaKawan.add("2. Rian");
+        namaKawan.add("3. Kholil");
+        namaKawan.add("4. Gedry");
+        namaKawan.add("5. Jainuddin");
+        namaKawan.add("6. Herawati");
+        kawan = namaKawan.elements();
+
+
+        System.out.println("Daftar Nama Kawan :");
+        System.out.println("~~~∅~~~∅~~~∅~~~∅~~~∅~~~∅~~~");
+        while (kawan.hasMoreElements()){
+            System.out.println(kawan.nextElement());
+        }
+    }
+}
